@@ -14,7 +14,7 @@ export default function Home() {
       <NavMenu />
 
       {/* Hero Section */}
-      <section className="relative pt-32 pb-12 md:pt-48 md:pb-32 px-4 md:px-8 bg-base-300 text-white overflow-hidden">
+      <section className="relative min-h-screen flex items-center pt-20 px-4 md:px-8 bg-base-300 text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
             src="/bgg.jpg"
