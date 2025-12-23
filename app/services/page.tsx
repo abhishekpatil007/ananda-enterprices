@@ -29,7 +29,7 @@ export default function ServicesPage() {
                     <div className="inline-block mb-4 px-4 py-1.5 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm">
                         <span className="text-accent-red font-bold tracking-widest text-xs uppercase">End-to-End Solutions</span>
                     </div>
-                    <h1 className="text-4xl md:text-7xl font-black uppercase tracking-tighter mb-6 text-white drop-shadow-2xl">
+                    <h1 className="text-4xl md:text-7xl font-heading font-normal uppercase tracking-wide mb-6 text-white drop-shadow-2xl">
                         Building <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">Tomorrow</span>
                     </h1>
                     <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto font-light leading-relaxed mb-12 px-2">
@@ -93,7 +93,7 @@ export default function ServicesPage() {
                             <div className="inline-block mb-4 px-3 py-1 bg-red-50 text-accent-red rounded-full text-sm font-bold tracking-wide uppercase">
                                 Core Service
                             </div>
-                            <h2 className="text-3xl md:text-5xl font-black uppercase tracking-tighter text-base-300 mb-4 md:mb-6">
+                            <h2 className="text-3xl md:text-5xl font-heading font-normal uppercase tracking-wide text-base-300 mb-4 md:mb-6">
                                 Bulk & Retail <span className="text-accent-red">Supply</span>
                             </h2>
                             <p className="text-gray-600 text-base md:text-lg leading-relaxed mb-6 md:mb-8">
@@ -159,7 +159,7 @@ export default function ServicesPage() {
                             <div className="inline-block mb-4 px-3 py-1 bg-red-50 text-accent-red rounded-full text-sm font-bold tracking-wide uppercase">
                                 Essential Material
                             </div>
-                            <h2 className="text-3xl md:text-5xl font-black uppercase tracking-tighter text-base-300 mb-4 md:mb-6">
+                            <h2 className="text-3xl md:text-5xl font-heading font-normal uppercase tracking-wide text-base-300 mb-4 md:mb-6">
                                 Premium Cement <span className="text-accent-red">Distribution</span>
                             </h2>
                             <p className="text-gray-600 text-base md:text-lg leading-relaxed mb-6 md:mb-8">
@@ -225,7 +225,7 @@ export default function ServicesPage() {
                             <div className="inline-block mb-4 px-3 py-1 bg-red-50 text-accent-red rounded-full text-sm font-bold tracking-wide uppercase">
                                 For Developers
                             </div>
-                            <h2 className="text-3xl md:text-5xl font-black uppercase tracking-tighter text-base-300 mb-4 md:mb-6">
+                            <h2 className="text-3xl md:text-5xl font-heading font-normal uppercase tracking-wide text-base-300 mb-4 md:mb-6">
                                 Corporate & <span className="text-accent-red">Turnkey</span>
                             </h2>
                             <p className="text-gray-600 text-base md:text-lg leading-relaxed mb-6 md:mb-8">
@@ -267,7 +267,7 @@ export default function ServicesPage() {
             <section className="py-12 md:py-24 bg-gray-50">
                 <div className="container mx-auto px-4 md:px-8">
                     <div className="text-center mb-10 md:mb-16">
-                        <h2 className="text-3xl md:text-5xl font-black uppercase tracking-tighter text-base-300 mb-4">
+                        <h2 className="text-3xl md:text-5xl font-heading font-normal uppercase tracking-wide text-base-300 mb-4">
                             How We <span className="text-accent-red">Work</span>
                         </h2>
                         <p className="text-gray-500 max-w-2xl mx-auto text-base md:text-lg">
@@ -304,7 +304,7 @@ export default function ServicesPage() {
             <section className="py-12 md:py-24 px-4 md:px-8">
                 <div className="container mx-auto max-w-4xl">
                     <div className="text-center mb-10 md:mb-16">
-                        <h2 className="text-3xl md:text-5xl font-black uppercase tracking-tighter text-base-300 mb-4">
+                        <h2 className="text-3xl md:text-5xl font-heading font-normal uppercase tracking-wide text-base-300 mb-4">
                             Frequently Asked <span className="text-accent-red">Questions</span>
                         </h2>
                     </div>
@@ -346,7 +346,7 @@ export default function ServicesPage() {
                         <div className="absolute top-0 right-0 -mt-20 -mr-20 w-80 h-80 bg-white/10 rounded-full blur-3xl" />
 
                         <div className="relative z-10">
-                            <h2 className="text-3xl md:text-6xl font-black uppercase tracking-tighter mb-6 text-white">Ready to Start Your Project?</h2>
+                            <h2 className="text-3xl md:text-6xl font-heading font-normal uppercase tracking-wide mb-6 text-white">Ready to Start Your Project?</h2>
                             <div className="flex flex-col md:flex-row justify-center gap-4 mt-8 md:mt-10">
                                 <Button asChild size="lg" className="bg-white text-accent-red hover:bg-gray-100 text-lg px-10 py-7 rounded-full font-bold tracking-wide shadow-xl w-full md:w-auto">
                                     <Link href="/contact">Request Bulk Pricing</Link>

@@ -65,8 +65,9 @@ module.exports = {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        sans: ['"Host Grotesk"', 'sans-serif'],
-        heading: ['"Barlow Condensed"', 'sans-serif'],
+        sans: ["var(--font-dm-sans)", "sans-serif"],
+        heading: ["var(--font-marcellus)", "serif"],
+        slab: ["var(--font-roboto-slab)", "serif"],
         mono: ['"DM Mono"', 'monospace'],
       },
     },

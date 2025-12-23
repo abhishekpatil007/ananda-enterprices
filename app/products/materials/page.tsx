@@ -28,7 +28,7 @@ export default function MaterialsPage() {
                     <Link href="/products" className="inline-flex items-center text-gray-400 hover:text-white mb-6 transition-colors">
                         <ArrowLeft className="mr-2 h-4 w-4" /> Back to Products
                     </Link>
-                    <h1 className="text-5xl md:text-7xl font-black uppercase tracking-tighter mb-6">Construction Materials</h1>
+                    <h1 className="text-5xl md:text-7xl font-heading font-normal uppercase tracking-wide mb-6">Construction Materials</h1>
                     <p className="text-xl text-gray-400 max-w-2xl mx-auto font-medium">
                         Everything else you need to complete your project, from foundation to finish.
                     </p>
@@ -44,7 +44,7 @@ export default function MaterialsPage() {
                                 <div className="bg-white p-4 rounded-xl w-16 h-16 flex items-center justify-center mb-6 shadow-sm group-hover:scale-110 transition-transform duration-300">
                                     <item.icon className="h-8 w-8 text-accent-red" />
                                 </div>
-                                <h3 className="text-2xl font-black uppercase tracking-tighter text-base-300 mb-4">{item.name}</h3>
+                                <h3 className="text-2xl font-heading font-normal uppercase tracking-wide text-base-300 mb-4">{item.name}</h3>
                                 <p className="text-base-secondary-dark font-medium">{item.desc}</p>
                             </div>
                         ))}
@@ -53,7 +53,7 @@ export default function MaterialsPage() {
                     <div className="mt-16 bg-base-300 text-white p-8 md:p-12 rounded-2xl text-center relative overflow-hidden">
                         <div className="absolute inset-0 bg-accent-red/10"></div>
                         <div className="relative z-10">
-                            <h2 className="text-3xl md:text-4xl font-black uppercase tracking-tighter mb-4">Need Bulk Quantities?</h2>
+                            <h2 className="text-3xl md:text-4xl font-heading font-normal uppercase tracking-wide mb-4">Need Bulk Quantities?</h2>
                             <p className="text-xl mb-8 opacity-90 text-gray-300">We offer special discounts for bulk orders and project supplies.</p>
                             <Button asChild size="lg" variant="secondary" className="bg-white text-base-300 hover:bg-gray-100 font-bold uppercase tracking-wide px-8 py-6">
                                 <Link href="/contact">Request Bulk Discount</Link>

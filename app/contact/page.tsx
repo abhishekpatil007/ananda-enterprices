@@ -34,7 +34,7 @@ export default function ContactPage() {
                     <div className="inline-block mb-4 px-4 py-1.5 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm">
                         <span className="text-accent-red font-bold tracking-widest text-xs uppercase">We're Here to Help</span>
                     </div>
-                    <h1 className="text-4xl md:text-7xl font-black uppercase tracking-tighter mb-6 text-white drop-shadow-2xl">
+                    <h1 className="text-4xl md:text-7xl font-heading font-normal uppercase tracking-wide mb-6 text-white drop-shadow-2xl">
                         Get in <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">Touch</span>
                     </h1>
                     <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto font-light leading-relaxed px-2">
@@ -51,7 +51,7 @@ export default function ContactPage() {
                         {/* Left Column: Contact Info */}
                         <div className="space-y-8 md:space-y-12">
                             <div>
-                                <h2 className="text-3xl md:text-4xl font-black uppercase tracking-tighter mb-4 md:mb-6 text-base-300">Contact <span className="text-accent-red">Info</span></h2>
+                                <h2 className="text-3xl md:text-4xl font-heading font-normal uppercase tracking-wide mb-4 md:mb-6 text-base-300">Contact <span className="text-accent-red">Info</span></h2>
                                 <p className="text-gray-600 text-base md:text-lg leading-relaxed">
                                     Reach out to us through any of the following channels. Our team is available to assist you with all your construction material needs.
                                 </p>
@@ -111,7 +111,7 @@ export default function ContactPage() {
                         <div className="bg-white p-6 md:p-10 rounded-3xl shadow-2xl border border-gray-100 relative overflow-hidden">
                             <div className="absolute top-0 right-0 w-32 h-32 bg-accent-red/5 rounded-bl-full -mr-10 -mt-10" />
 
-                            <h2 className="text-2xl md:text-3xl font-black uppercase tracking-tighter mb-8 text-base-300 relative z-10">Request a <span className="text-accent-red">Quote</span></h2>
+                            <h2 className="text-2xl md:text-3xl font-heading font-normal uppercase tracking-wide mb-8 text-base-300 relative z-10">Request a <span className="text-accent-red">Quote</span></h2>
 
                             <form onSubmit={handleSubmit} className="space-y-6 relative z-10">
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -177,21 +177,21 @@ export default function ContactPage() {
                             <div className="w-16 h-16 bg-base-300 rounded-full flex items-center justify-center mx-auto mb-6 text-white shadow-xl">
                                 <Zap className="w-8 h-8" />
                             </div>
-                            <h3 className="text-xl font-black uppercase tracking-wide mb-3 text-base-300">Fast Response</h3>
+                            <h3 className="text-xl font-heading font-normal uppercase tracking-wide mb-3 text-base-300">Fast Response</h3>
                             <p className="text-gray-500">We aim to respond to all inquiries within 2 business hours.</p>
                         </div>
                         <div className="p-6">
                             <div className="w-16 h-16 bg-base-300 rounded-full flex items-center justify-center mx-auto mb-6 text-white shadow-xl">
                                 <ShieldCheck className="w-8 h-8" />
                             </div>
-                            <h3 className="text-xl font-black uppercase tracking-wide mb-3 text-base-300">Best Price Guarantee</h3>
+                            <h3 className="text-xl font-heading font-normal uppercase tracking-wide mb-3 text-base-300">Best Price Guarantee</h3>
                             <p className="text-gray-500">Get the most competitive rates in the market directly from us.</p>
                         </div>
                         <div className="p-6">
                             <div className="w-16 h-16 bg-base-300 rounded-full flex items-center justify-center mx-auto mb-6 text-white shadow-xl">
                                 <MessageSquare className="w-8 h-8" />
                             </div>
-                            <h3 className="text-xl font-black uppercase tracking-wide mb-3 text-base-300">Expert Advice</h3>
+                            <h3 className="text-xl font-heading font-normal uppercase tracking-wide mb-3 text-base-300">Expert Advice</h3>
                             <p className="text-gray-500">Free consultation on material selection and quantity estimation.</p>
                         </div>
                     </div>

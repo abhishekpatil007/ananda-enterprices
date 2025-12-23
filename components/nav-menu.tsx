@@ -32,7 +32,7 @@ export function NavMenu() {
                 }}
                 animate={hidden ? "hidden" : "visible"}
                 transition={{ duration: 0.35, ease: "easeInOut" }}
-                className="fixed top-0 left-0 w-full z-50 flex justify-center pt-6 px-4 pointer-events-none"
+                className="fixed top-0 left-0 w-full z-50 flex justify-center pt-2 px-4 pointer-events-none"
             >
                 {/* Desktop Menu */}
                 <div className="hidden md:block pointer-events-auto">
@@ -41,7 +41,7 @@ export function NavMenu() {
                             <img
                                 src="/logo.png"
                                 alt="Ananda Enterprises"
-                                className="h-12 w-auto object-contain"
+                                className="h-10 w-auto object-contain"
                             />
                         </Link>
                         <MenuItem setActive={setActive} active={active} item="Home" href="/" />

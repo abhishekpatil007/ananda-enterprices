@@ -57,7 +57,7 @@ export default function ProductsLandingPage() {
                     <div className="inline-block mb-4 px-4 py-1.5 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm">
                         <span className="text-accent-red font-bold tracking-widest text-xs uppercase">Trusted by Top Builders</span>
                     </div>
-                    <h1 className="text-4xl md:text-7xl font-black uppercase tracking-tighter mb-6 drop-shadow-2xl">
+                    <h1 className="text-4xl md:text-7xl font-heading font-normal uppercase tracking-wide mb-6 drop-shadow-2xl">
                         Premium <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">Materials</span>
                     </h1>
                     <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto font-light leading-relaxed mb-10 px-2">
@@ -92,7 +92,7 @@ export default function ProductsLandingPage() {
             <section id="catalog" className="py-12 md:py-24 px-4 md:px-8 bg-white">
                 <div className="container mx-auto">
                     <div className="text-center mb-10 md:mb-16">
-                        <h2 className="text-3xl md:text-5xl font-black mb-4 uppercase tracking-tighter text-base-300">Our <span className="text-accent-red">Catalog</span></h2>
+                        <h2 className="text-3xl md:text-5xl font-heading font-normal mb-4 uppercase tracking-wide text-base-300">Our <span className="text-accent-red">Catalog</span></h2>
                         <p className="text-gray-500 max-w-2xl mx-auto text-base md:text-lg">Comprehensive solutions for every stage of construction.</p>
                     </div>
 
@@ -114,7 +114,7 @@ export default function ProductsLandingPage() {
                                 <div className="absolute inset-0 p-6 md:p-8 flex flex-col justify-end bg-gradient-to-t from-white via-white/80 to-transparent">
                                     <div className="transform transition-transform duration-500 translate-y-2 group-hover:translate-y-0">
                                         <div className="w-12 h-1 bg-accent-red mb-4 md:mb-6" />
-                                        <h3 className="text-2xl md:text-3xl font-black uppercase tracking-tighter text-base-300 mb-2 md:mb-3 group-hover:text-accent-red transition-colors">
+                                        <h3 className="text-2xl md:text-3xl font-heading font-normal uppercase tracking-wide text-base-300 mb-2 md:mb-3 group-hover:text-accent-red transition-colors">
                                             {category.title}
                                         </h3>
                                         <p className="text-gray-600 mb-4 md:mb-6 line-clamp-2 group-hover:line-clamp-none transition-all text-sm md:text-base">
@@ -148,7 +148,7 @@ export default function ProductsLandingPage() {
 
                 <div className="container mx-auto relative z-10">
                     <div className="text-center mb-10 md:mb-16">
-                        <h2 className="text-3xl md:text-5xl font-black mb-4 uppercase tracking-tighter">Why Choose <span className="text-accent-red">Ananda</span></h2>
+                        <h2 className="text-3xl md:text-5xl font-heading font-normal mb-4 uppercase tracking-wide">Why Choose <span className="text-accent-red">Ananda</span></h2>
                         <p className="text-gray-400 max-w-2xl mx-auto text-base md:text-lg">Building trust through quality and reliability since 2008.</p>
                     </div>
 
@@ -193,7 +193,7 @@ export default function ProductsLandingPage() {
                         <div className="absolute top-0 right-0 -mt-20 -mr-20 w-80 h-80 bg-white/10 rounded-full blur-3xl" />
 
                         <div className="relative z-10">
-                            <h2 className="text-3xl md:text-6xl font-black uppercase tracking-tighter mb-4 md:mb-6 text-white">Ready to Build?</h2>
+                            <h2 className="text-3xl md:text-6xl font-heading font-normal uppercase tracking-wide mb-4 md:mb-6 text-white">Ready to Build?</h2>
                             <p className="text-lg md:text-xl text-white/80 max-w-2xl mx-auto mb-8 md:mb-10 font-medium">
                                 Get a custom quote for your project today. We guarantee the best price and service.
                             </p>

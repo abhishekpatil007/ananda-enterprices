@@ -16,19 +16,17 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative pt-32 pb-12 md:pt-48 md:pb-32 px-4 md:px-8 bg-base-300 text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <video
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="object-cover w-full h-full"
-          >
-            <source src="/hero.mp4" type="video/mp4" />
-          </video>
+          <Image
+            src="/bgg.jpg"
+            alt="Hero Background"
+            fill
+            className="object-cover"
+            priority
+          />
           <div className="absolute inset-0 bg-black/60" />
         </div>
         <div className="container mx-auto relative z-10 text-center">
-          <h1 className="text-4xl md:text-7xl lg:text-8xl font-black tracking-tighter mb-6 uppercase text-white leading-tight">
+          <h1 className="text-4xl md:text-7xl lg:text-8xl font-heading font-normal tracking-wide mb-6 uppercase text-white leading-tight">
             Building the Future
             <br />
             With Strength
@@ -60,7 +58,7 @@ export default function Home() {
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="order-2 md:order-1">
             <h2 className="inline-block px-3 py-1 mb-4 text-xs font-bold tracking-widest uppercase bg-accent-red/10 text-accent-red rounded-full border border-accent-red/20">Since 2008</h2>
-            <h3 className="text-3xl md:text-6xl font-black mb-6 text-base-300 uppercase tracking-tighter leading-none">Welcome to <br /> ANANDA ENTERPRISES</h3>
+            <h3 className="text-3xl md:text-6xl font-heading font-normal mb-6 text-base-300 uppercase tracking-tight leading-none">Welcome to <br /> ANANDA ENTERPRISES</h3>
             <p className="text-base md:text-lg text-base-secondary-dark mb-6 leading-relaxed">
               With over 16+ years of construction expertise, ANANDA ENTERPRISES has grown into one of Bangalore’s most trusted B2B and Bulk suppliers of branded TMT steel rods, cement and bulk construction materials for Residential, Commercial & Infrastructure projects.
             </p>
@@ -100,7 +98,7 @@ export default function Home() {
             <div className="inline-flex items-center justify-center px-4 py-1.5 mb-6 border border-accent-red/30 rounded-full bg-accent-red/10 text-accent-red text-sm font-bold tracking-wider uppercase">
               Our Core Offerings
             </div>
-            <h2 className="text-4xl md:text-7xl font-black uppercase tracking-tighter mb-6 text-base-300">
+            <h2 className="text-4xl md:text-7xl font-heading font-normal uppercase tracking-tight mb-6 text-base-300">
               What We <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent-red to-accent-1">Supply</span>
             </h2>
             <p className="text-lg md:text-xl text-base-secondary-dark max-w-2xl mx-auto font-medium px-4">
@@ -126,7 +124,7 @@ export default function Home() {
               </div>
               <div className="flex-1 bg-base-200 p-6 md:p-8 flex flex-col justify-between">
                 <div>
-                  <h3 className="text-2xl md:text-3xl font-black uppercase tracking-tighter mb-4 text-base-300 leading-none">
+                  <h3 className="text-2xl md:text-3xl font-heading font-normal uppercase tracking-tight mb-4 text-base-300 leading-none">
                     TMT Steel Rods
                   </h3>
                   <p className="text-base-secondary-dark mb-8 font-medium leading-relaxed text-sm md:text-base">
@@ -156,7 +154,7 @@ export default function Home() {
               </div>
               <div className="flex-1 bg-base-200 p-6 md:p-8 flex flex-col justify-between">
                 <div>
-                  <h3 className="text-2xl md:text-3xl font-black uppercase tracking-tighter mb-4 text-base-300 leading-none">
+                  <h3 className="text-2xl md:text-3xl font-heading font-normal uppercase tracking-tight mb-4 text-base-300 leading-none">
                     Cement
                   </h3>
                   <p className="text-base-secondary-dark mb-8 font-medium leading-relaxed text-sm md:text-base">
@@ -186,7 +184,7 @@ export default function Home() {
               </div>
               <div className="flex-1 bg-base-200 p-6 md:p-8 flex flex-col justify-between">
                 <div>
-                  <h3 className="text-2xl md:text-3xl font-black uppercase tracking-tighter mb-4 text-base-300 leading-none">
+                  <h3 className="text-2xl md:text-3xl font-heading font-normal uppercase tracking-tight mb-4 text-base-300 leading-none">
                     Bulk & Project Supply
                   </h3>
                   <p className="text-base-secondary-dark mb-8 font-medium leading-relaxed text-sm md:text-base">
@@ -207,7 +205,7 @@ export default function Home() {
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16">
             <div>
-              <h2 className="text-3xl md:text-5xl font-black uppercase tracking-tighter mb-6 md:mb-8">Why Clients Choose ANANDA</h2>
+              <h2 className="text-3xl md:text-5xl font-heading font-normal uppercase tracking-tight mb-6 md:mb-8">Why Clients Choose ANANDA</h2>
               <p className="text-lg md:text-xl text-gray-400 mb-8">
                 Choose Ananda Enterprises for Reliability, Quality and Seamless service at every step of your construction journey.
               </p>
@@ -288,7 +286,7 @@ export default function Home() {
 
         <div className="container mx-auto relative z-10">
           <div className="text-center mb-10 md:mb-16">
-            <h2 className="text-3xl md:text-6xl font-black mb-4 md:mb-6 text-white uppercase tracking-tighter drop-shadow-2xl">
+            <h2 className="text-3xl md:text-6xl font-heading font-normal mb-4 md:mb-6 text-white uppercase tracking-tight drop-shadow-2xl">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">Precision</span> Steel Calculator
             </h2>
             <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto font-light">
@@ -364,7 +362,7 @@ export default function Home() {
 
         <div className="container mx-auto relative z-10">
           <div className="text-center mb-10 md:mb-16">
-            <h2 className="text-3xl md:text-5xl font-black mb-4 text-white uppercase tracking-tighter">
+            <h2 className="text-3xl md:text-5xl font-heading font-normal mb-4 text-white uppercase tracking-tight">
               Quick <span className="text-accent-red">Actions</span>
             </h2>
             <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto font-light">
